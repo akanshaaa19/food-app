@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    color: var(--dark2);
+}
+nav i{
+    margin-right: 2rem;
+}
+
+nav h4{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+nav a{
+    margin: 0 2rem;
+}
+.active{
+    font-weight: 600;
+    color: var(--dark1);
+    border-bottom: solid 3px var(--dark1);
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}

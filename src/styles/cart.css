@@ -1,0 +1,92 @@
+.backdrop{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.cart {
+  position: fixed;
+  top: 15vh;
+  left: 25%;
+  width: 50%;
+  height: 70vh;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+
+.cart-container
+.cart h2 {
+  margin-bottom: 1.5rem;
+}
+
+.cart-item {
+  background: var(--bg);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-item h5 {
+  font-size: 600;
+}
+
+.cart-item p {
+  margin: 0;
+}
+
+.cart-item button {
+  background: transparent;
+  padding: 0.2rem;
+  border: none;
+  /* font-size: 1.5rem; */
+}
+
+.add-item-btn {
+  display: flex;
+  align-items: center;
+  background-color: #2e204023;
+  color: #2e2040;
+  border-radius: 10px;
+  border: 2px solid #2e2040;
+}
+
+.add-item-btn i {
+  color: #2e2040;
+  padding: 0 0.5rem;
+}
+
+.add-item-btn div {
+  padding: 0 0.5rem;
+}
+
+.cart h4 {
+  text-align: right;
+}
+
+.cart-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 2rem;
+}
+
+.no-item-p{
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,32 @@
+.admin input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid var(--dark1);
+    padding: 1rem;
+    width: 100%;
+}
+
+.admin{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.admin form{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin-left: 5rem;
+    position: relative;
+}
+
+.admin button{
+    margin-top: 1rem;
+    width: fit-content;
+    padding: 1rem 2rem;
+    position: absolute;
+    right: 0;
+    bottom: -81px;
+    background-color: var(--dark1);
+    color: var(--bg);
+}

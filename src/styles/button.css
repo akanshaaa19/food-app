@@ -1,0 +1,18 @@
+.btnc{
+    padding: 1rem;
+    font-size: 1.rem;
+    
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.inverted{
+    border: solid 2px var(--dark1);
+    color: var(--dark1);
+    background-color: transparent;
+}
+
+.filled{
+    background-color: var(--dark1);
+    color: white;
+}

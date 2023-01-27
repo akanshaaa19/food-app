@@ -1,0 +1,9 @@
+.card-div{
+    width: calc(3 * ( 20vw + 2rem ) + 3rem);
+}
+
+#order{
+    display: flex;
+    justify-content: center;
+    padding: 0 8rem
+  }

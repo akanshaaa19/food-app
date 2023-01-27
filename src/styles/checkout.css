@@ -1,0 +1,18 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.item button{
+    background-color: transparent;
+    border: none;
+}
+
+.item h5{
+    display: inline;
+}
+
+.item p{
+    display: inline;
+}
